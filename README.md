@@ -38,6 +38,8 @@ deactivate
 
 ## Database questions
 
+Number of employees hired for each job and department in 2021 divided by quarter. The table must be ordered alphabetically by department and job.
+
 ```sql
 SELECT de.department,j.job,
     SUM(CASE WHEN EXTRACT(quarter FROM he.datetime) = 1 THEN 1 ELSE 0 END) AS Q1,
@@ -53,6 +55,8 @@ order by de.department asc, j.job asc
 ```
 
 ![image](https://github.com/nicolascorchuelo/portfolio/assets/90802118/2a17f5ca-8c2c-4e82-855d-82a4b56ee69e)
+
+List of ids, name and number of employees hired of each department that hired more employees than the mean of employees hired in 2021 for all the departments, ordered by the number of employees hired (descending).
 
 ```sql
 SELECT de.id,
