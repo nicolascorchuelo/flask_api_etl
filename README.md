@@ -41,7 +41,6 @@ deactivate
 
 ![image](https://github.com/nicolascorchuelo/flask_api_etl/assets/90802118/6fb84f52-69d2-42df-8e6d-935ca6e4de0d)
 
-
 [http://172.20.10.2:8010/swagger](http://172.20.10.2:8010/swagger)
 
 [http://172.20.10.2:8010/consult?id=1&table=departments](http://172.20.10.2:8010/consult?id=1&table=departments)
@@ -61,6 +60,8 @@ curl -X 'GET' \
 ```
 
 ### Method POST
+
+![image](https://github.com/nicolascorchuelo/flask_api_etl/assets/90802118/8c2dcc41-289c-46db-a3e1-7785b1f39509)
 
 [http://172.20.10.2:8010/swagger](http://172.20.10.2:8010/swagger)
 ```json
