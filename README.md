@@ -43,6 +43,11 @@ deactivate
 
 [http://172.20.10.2:8010/consult?id=1&table=departments](http://172.20.10.2:8010/consult?id=1&table=departments)
 
+```Bash
+curl -X 'GET' \
+  'http://172.20.10.2:8010/consult?id=1&table=departments' \
+  -H 'accept: application/json'
+```
 ```json
 {
   "1": {
