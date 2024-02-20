@@ -36,6 +36,15 @@ deactivate
 * **prueba.py:** 
 * **static/swagger.json:**
 
+
+### Method GET
+
+[http://172.20.10.2:8010/swagger](http://172.20.10.2:8010/swagger)
+
+[http://172.20.10.2:8010/consult?id=1&table=departments](http://172.20.10.2:8010/consult?id=1&table=departments)
+
+### Method POST
+
 [http://172.20.10.2:8010/swagger](http://172.20.10.2:8010/swagger)
 ```json
 {
