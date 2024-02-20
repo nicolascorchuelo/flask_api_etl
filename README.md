@@ -34,7 +34,16 @@ deactivate
 * **etl_api_call.py:** 
 * **flask_env:** 
 * **prueba.py:** 
-* **static/swagger.json:** 
+* **static/swagger.json:**
+
+
+```json
+{
+  "file": "departments.csv",
+  "table": "departments",
+  "delete_data": "string"
+}
+```
 
 ## Database questions
 
