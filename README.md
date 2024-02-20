@@ -43,6 +43,15 @@ deactivate
 
 [http://172.20.10.2:8010/consult?id=1&table=departments](http://172.20.10.2:8010/consult?id=1&table=departments)
 
+```json
+{
+  "1": {
+    "department": "Sales",
+    "id": 2
+  }
+}
+```
+
 ### Method POST
 
 [http://172.20.10.2:8010/swagger](http://172.20.10.2:8010/swagger)
