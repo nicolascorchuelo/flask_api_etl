@@ -36,7 +36,7 @@ deactivate
 * **prueba.py:** 
 * **static/swagger.json:**
 
-
+[http://172.20.10.2:8010/swagger}](http://172.20.10.2:8010/swagger)
 ```json
 {
   "file": "departments.csv",
