@@ -68,7 +68,7 @@ curl -X 'GET' \
 {
   "file": "departments.csv",
   "table": "departments",
-  "delete_data": "string"
+  "delete_data": "True"
 }
 ```
 
