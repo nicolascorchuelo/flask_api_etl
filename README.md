@@ -39,6 +39,9 @@ deactivate
 
 ### Method GET
 
+![image](https://github.com/nicolascorchuelo/flask_api_etl/assets/90802118/6fb84f52-69d2-42df-8e6d-935ca6e4de0d)
+
+
 [http://172.20.10.2:8010/swagger](http://172.20.10.2:8010/swagger)
 
 [http://172.20.10.2:8010/consult?id=1&table=departments](http://172.20.10.2:8010/consult?id=1&table=departments)
